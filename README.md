@@ -1,6 +1,6 @@
 # AS214514.net
 
-AS214514 is the personal ASN of Henry Clarke, a network engineer in the UK. The ASN is used for both learning about BGP/routing on the internet, and personal projects.
+AS214514 is the personal ASN of <a href="mailto:henry@henryclarke.uk">Henry Clarke</a>, a network engineer in the UK. The ASN is used for both learning about BGP/routing on the internet, and personal projects.
 
 ## Setup
 AS214514 is currently setup on a Vultr instance running in London, running Bird to establish BGP to Vultr (AS20473), and advertising the IPv6 range assigned to AS214514 (2a0a:79c0:600::/44). 
