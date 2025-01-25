@@ -9,9 +9,9 @@ AS214514 performs RPKI filtering (using [Routinator](https://github.com/NLnetLab
 
 ## Peering
 
-AS214514 is a member of FogIXP and peers with both of the FogIXP route servers.
+AS214514 is a member of FogIXP and peers with both of the FogIXP route servers. AS214514 connects to FogIXP in London.
 
-If you are not a member of FogIXP but would like to peer with AS214514 (personal ASN's welcome!), then peering is available over a GRE tunnel, please email <peering@as214514.net> and we can establish this.
+If you are not a member of FogIXP but would like to peer with AS214514 (personal ASN's welcome!), then peering is available over a GRE tunnel, please email <peering@as214514.net> and we can establish this. AS214514 has an open peering policy, with no restrictions on its peer ASNs.
 
 AS214514 will advertise to you [AS214514:AS-HENRYCLARKE](https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=AS214514%3AAS-HENRYCLARKE&type=as-set).
 
@@ -43,7 +43,8 @@ Changes to AS214514 infrastructure that are visible to the outside world:
 - 7-12-2024: AS214514 starts serving the reverse DNS zone for its IPv6 allocation and PTR records within 2a0a:79c0:600::/44 now have answers.
 - 6-1-2025: AS214514 deploys another anycast VPS, this time on iFog in London.
 - 12-1-2025: AS214514 joins FogIXP (using above anycast node), and starts peering with the route servers.
-
+- 23-1-2025: `gblon-r1` (Vultr) and `gblon-r2` (iFog) start using `conntrackd` to share iptables state, and as a result `gblon-r2` starts also advertising the /44 summary route, meaning that either router is used for traffic towards the internet from Henry's home network, adding additional resiliency.
+  
 ### Contact
 To contact myself (Henry), please use: <a href="mailto:henry@henryclarke.uk">henry@henryclarke.uk</a>
 
