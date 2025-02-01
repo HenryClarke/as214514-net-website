@@ -44,6 +44,7 @@ Changes to AS214514 infrastructure that are visible to the outside world:
 - 6-1-2025: AS214514 deploys another anycast VPS, this time on iFog in London.
 - 12-1-2025: AS214514 joins FogIXP (using above anycast node), and starts peering with the route servers.
 - 23-1-2025: `gblon-r1` (Vultr) and `gblon-r2` (iFog) start using `conntrackd` to share iptables state, and as a result `gblon-r2` starts also advertising the /44 summary route, meaning that either router is used for traffic towards the internet from Henry's home network, adding additional resiliency.
+- 1-2-2025: Geofeed added to inet6num object per RFC8805/RFC9092, available at: https://as214514.net/geofeed.csv
   
 ### Contact
 To contact myself (Henry), please use: <a href="mailto:henry@henryclarke.uk">henry@henryclarke.uk</a>
