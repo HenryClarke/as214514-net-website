@@ -50,3 +50,5 @@ Changes to AS214514 infrastructure that are visible to the outside world:
 To contact myself (Henry), please use: <a href="mailto:henry@henryclarke.uk">henry@henryclarke.uk</a>
 
 To get in contact regarding AS214514, please use: <a href="mailto:noc@as214514.net">noc@as214514.net</a>
+
+<a rel="me" href="https://mastodon.social/@henry214514"></a>
